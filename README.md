@@ -1,4 +1,4 @@
-# nodaysidle Royal Red — Omarchy Theme 🏁🏎️
+# nodaysidle Royal Red — Omarchy Theme
 
 > *"High-velocity F1 telemetry cockpit: engineered for relentless shipping."*
 
@@ -8,7 +8,7 @@ Rooted in the visual DNA of Scuderia Rosso Corsa, Formula 1 pit wall timing scre
 
 ---
 
-## 🎨 Design System & Color Tokens
+## Design System & Color Tokens
 
 Anchored in an obsidian asphalt tarmac ground with high-velocity Scuderia red and racing yellow telemetry accents:
 
@@ -26,7 +26,7 @@ Anchored in an obsidian asphalt tarmac ground with high-velocity Scuderia red an
 
 ---
 
-## ⚡ Key Architectural Features
+## Key Architectural Features
 
 ### 1. High-Velocity Scuderia Gradient Borders
 A razor 2px active border angled at 135° combining **Scuderia Red (`#FF2A42`)**, **Deep Burgundy Black Cherry (`#7A0B18`)**, and a **Telemetry Gold tip (`#FFB703`)**. Fires crisply on window focus without continuous redraw cycles to preserve cool thermals.
@@ -52,7 +52,7 @@ Includes 4 bespoke wallpapers at native 2560×1440:
 
 ---
 
-## 🚀 Installation & Activation
+## Installation & Activation
 
 ### 1. Register the Theme
 Run the installer from within the theme repository:
@@ -74,7 +74,7 @@ omarchy theme bg next
 
 ---
 
-## 📂 File Architecture
+## File Architecture
 
 ```
 omarchy-theme-nodaysidle-royal-red/
@@ -96,5 +96,5 @@ omarchy-theme-nodaysidle-royal-red/
 
 ---
 
-## 🏎️ Built for NODAYSIDLE
+## Built for NODAYSIDLE
 Part of the [nodaysidle](https://github.com/nodaysidle) workspace — relentless shipping, zero compromise.
