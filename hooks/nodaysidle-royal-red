@@ -3,9 +3,13 @@
 set -euo pipefail
 
 THEME="${1:-}"
-THEME_DIR="$HOME/.config/omarchy/themes/nodaysidle-royal-red"
 
-# Nothing destructive; hot-reloads shell and hyprland when applied
 if [[ "$THEME" == "nodaysidle-royal-red" || "$THEME" == "Nodaysidle Royal Red" ]]; then
-  echo "[hook] Activated Nodaysidle Royal Red"
+  CURSOR_BIN="$HOME/.config/omarchy/plugins/taxin.cursor-style/bin/omarchy-cursor-set"
+  if [[ -x "$CURSOR_BIN" ]]; then
+    "$CURSOR_BIN" "Omarchy-Royal-Red" >/dev/null 2>&1 || true
+  else
+    hyprctl setcursor "Omarchy-Royal-Red" 24 >/dev/null 2>&1 || true
+    gsettings set org.gnome.desktop.interface cursor-theme "Omarchy-Royal-Red" >/dev/null 2>&1 || true
+  fi
 fi

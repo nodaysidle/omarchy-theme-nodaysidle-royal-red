@@ -87,3 +87,6 @@ o.window({ tag = "chromium-based-browser" }, { opacity = "1.0 1.0" })
 o.window({ tag = "firefox-based-browser" }, { opacity = "1.0 1.0" })
 
 hl.layer_rule({ match = { namespace = "^(omarchy-bar|omarchy-notifications|omarchy-osd|omarchy-reminders)$" }, blur = false })
+
+hl.env("XCURSOR_THEME", "Omarchy-Royal-Red")
+hl.env("HYPRCURSOR_THEME", "Omarchy-Royal-Red")
