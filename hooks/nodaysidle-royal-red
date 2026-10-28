@@ -1,0 +1,11 @@
+#!/bin/bash
+# Omarchy Theme Hook for Nodaysidle Royal Red
+set -euo pipefail
+
+THEME="${1:-}"
+THEME_DIR="$HOME/.config/omarchy/themes/nodaysidle-royal-red"
+
+# Nothing destructive; hot-reloads shell and hyprland when applied
+if [[ "$THEME" == "nodaysidle-royal-red" || "$THEME" == "Nodaysidle Royal Red" ]]; then
+  echo "[hook] Activated Nodaysidle Royal Red"
+fi

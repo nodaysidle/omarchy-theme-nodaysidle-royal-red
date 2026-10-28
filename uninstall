@@ -1,0 +1,7 @@
+#!/bin/bash
+TARGET_DIR="$HOME/.config/omarchy/themes/nodaysidle-royal-red"
+HOOK_DIR="$HOME/.config/omarchy/hooks/theme-set.d/nodaysidle-royal-red"
+
+rm -f "$TARGET_DIR"
+rm -f "$HOOK_DIR"
+echo "✔ Uninstalled Nodaysidle Royal Red"

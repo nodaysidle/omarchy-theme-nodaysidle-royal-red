@@ -1,0 +1,78 @@
+# Omarchy Shell Surfaces for nodaysidle Royal Red
+# F1 Telemetry & Scuderia Monogram
+
+[bar]
+background       = "#0D080A"
+background-alpha = 0.94
+text             = "#F3EFF1"
+active           = "#FF2A42"
+scale-with-font  = true
+size-horizontal  = 25
+size-vertical    = 27
+
+[hyprland]
+active-border            = "#FF2A42"
+active-border-foreground = "#FFB703"
+
+[controls]
+normal-color        = "#FF2A42"
+normal-fill-alpha   = 0.08
+normal-border       = "#4D121B"
+normal-border-width = 1
+normal-border-alpha = 0.70
+
+hover-cursor-color        = "#FFE600"
+hover-cursor-fill-alpha   = 0.22
+hover-cursor-border       = "#FFE600"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.90
+
+focus-color        = "#FF2A42"
+focus-fill-alpha   = 0.18
+focus-border       = "#FF2A42"
+focus-border-width = 1
+focus-border-alpha = 0.85
+
+selected-color        = "#FF2A42"
+selected-fill-alpha   = 0.28
+selected-border       = "#FFB703"
+selected-border-width = 1
+selected-border-alpha = 0.95
+
+pressed-fill-alpha   = 0.40
+selection-fill-alpha = 0.50
+
+[font]
+base-size = 11
+
+[popups]
+background       = "#0D080A"
+background-alpha = 0.98
+text             = "#F3EFF1"
+border           = "#FF2A42"
+border-alpha     = 0.75
+
+[tooltip]
+background       = "#080506"
+background-alpha = 0.98
+text             = "#FFE600"
+border           = "#4D121B"
+border-alpha     = 0.80
+
+[notifications]
+background       = "#0D080A"
+background-alpha = 0.98
+text             = "#F3EFF1"
+border           = "#FF2A42"
+border-alpha     = 0.90
+urgency-low      = "#665458"
+urgency-normal   = "#FF2A42"
+urgency-critical = "#FFE600"
+
+[osd]
+background       = "#0D080A"
+background-alpha = 0.95
+text             = "#FF2A42"
+border           = "#4D121B"
+border-alpha     = 0.75
+fill             = "#FF2A42"
